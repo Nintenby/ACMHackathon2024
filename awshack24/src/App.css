@@ -10,13 +10,13 @@
 }
 
 .App-header {
-  background-color:#2cb080ff;
+  background-color: cadetblue;
   min-height: 100px;
   flex-direction: column;
   align-items: center;
   font-size: calc(50px + 2vmin);
   font-family: Georgia, serif;
-  color: white;
+  color: cornsilk;
 }
 
 .content {
@@ -26,14 +26,20 @@
 .description {
   margin-left: 100px;
   margin-right: 100px;
+  align-items: justify;
   font-family: Georgia, serif;
   font-size: calc(10px + 2vmin);
   color: black;
 }
 
-.button {
+.textbox {
   min-height: 150px;
   font-size: 100px;
+}
+
+.button {
+  min-height: 30px;
+  font-size: 30px;
   background-color: firebrick;
   color: cornsilk;
   font-family: Georgia, serif;
@@ -41,7 +47,6 @@
 }
 
 .mapimg {
-  height: 400px;
-  width: 200px;
-  top: 20px;
+  height: 100px;
+  width: 50px;
 }
