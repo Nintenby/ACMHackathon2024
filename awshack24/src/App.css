@@ -9,15 +9,28 @@
 
 .App-header {
   background-color:#2cb080ff;
-  min-height: 3000vh;
+ 
   flex-direction: column;
   align-items: center;
   font-size: calc(50px + 2vmin);
-  font-family: cursive;
+  font-family: monospace;
   color: white;
 }
 
-.mapimg {
+.ah {
+  color:black;
+  text-align: left;
+
+}
+
+.logoimg {
+
   height: 100px;
-  width: 50px;
+  width: 100px;
+}
+
+.mapimg {
+  height: 400px;
+  width: 200px;
+  top: 20px;
 }
