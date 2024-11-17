@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        Emergency Vehicle Ale
+        Emergency Vehicle Alert
       </header>
       <div className="content">
         <p className="description"> Never be caught unaware on the road with Emergency
@@ -14,6 +15,7 @@ function App() {
           goodbye to the days of last minute swerving and nerves on the 
           road.
         </p>
+        <button className="button" type="button">Ambulance?</button>
       </div>
     </div>
   );

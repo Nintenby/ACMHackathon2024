@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: cornsilk;
+  height: 5000px;
 }
 
 .App-logo {
@@ -9,12 +11,33 @@
 
 .App-header {
   background-color:#2cb080ff;
-  min-height: 3000vh;
+  min-height: 100px;
   flex-direction: column;
   align-items: center;
   font-size: calc(50px + 2vmin);
-  font-family: cursive;
+  font-family: Georgia, serif;
   color: white;
+}
+
+.content {
+  justify-content: left;
+}
+
+.description {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Georgia, serif;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.button {
+  min-height: 150px;
+  font-size: 100px;
+  background-color: firebrick;
+  color: cornsilk;
+  font-family: Georgia, serif;
+  
 }
 
 .mapimg {
