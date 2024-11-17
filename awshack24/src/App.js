@@ -18,11 +18,11 @@ function App() {
       redirect: "follow"
     };
   
-    fetch(`http://172.31.30.58:3001/?url=${urly}`, requestOptions) 
+    fetch(`http://172.31.30.58:3000/url?url=${urly}`, requestOptions) 
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      setResult(data); // Update the result state correctly
+      setResult(data["prediction"]); // Update the result state correctly
     })
     .catch((error) => console.error(error));
   };
