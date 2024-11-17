@@ -48,7 +48,9 @@
 
 .resultTime {
   min-height: 30px;
-  font-size: 30px;
+  font-size: calc(10px + 2vmin);;
+  font-family: Georgia, serif;
+  align-items: center;
 }
 
 .mapimg {
