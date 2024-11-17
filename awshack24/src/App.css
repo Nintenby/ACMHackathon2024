@@ -46,6 +46,11 @@
   
 }
 
+.resultTime {
+  min-height: 30px;
+  font-size: 30px;
+}
+
 .mapimg {
   height: 100px;
   width: 50px;
